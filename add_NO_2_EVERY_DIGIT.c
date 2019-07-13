@@ -35,10 +35,7 @@ void main()
             a[i]=a[i]*100;
         p=a[i]+a[i-1];
         a[i-1]=p;
-        }
-        
-        
+        }    
     }
-    printf("%d",p);
-    
+    printf("%d",p);   
 }
