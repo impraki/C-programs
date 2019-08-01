@@ -1,0 +1,33 @@
+#include<stdio.h>
+void main()
+{
+    int ar[12][12],i,j,k,n,a,y=0,x,b;
+    scanf("%d",&n);
+    for(k=0;k<12;k+=n)
+    {
+        a=y;
+        for(i=k;i<k+n;i++)
+        {
+            x=a;
+            b=n;
+            for(j=0;j<12;)
+            {
+                while(j<b)
+                {
+                    ar[i][j++]=x;
+                }
+                b=b+n;
+                x++;
+            }
+        }
+        y=x;
+    }
+    for(i=0;i<12;i++)
+    {
+        for(j=0;j<12;j++)
+        {
+            printf("%2d",ar[i][j]);
+        }
+        printf("\n");
+    }
+}
