@@ -29,8 +29,12 @@ void main()
        }
        j++;
       }
-    if(flag==1 && flag1==1)
-    printf("VALID");
     n--;
   }
+  if(flag==1 && flag1==1)
+    printf("VALID");
+    else
+    {
+      printf("INvalid");
+    }  
 }
