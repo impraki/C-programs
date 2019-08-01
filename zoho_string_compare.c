@@ -35,7 +35,7 @@ while(j<=k)
     cnt++;
   }
   if(cnt==n)
-  printf("%s ","kavis");
+  printf("%s ","praki");
   else
   {
     printf("%s ",b[j]);
