@@ -11,7 +11,6 @@ void main()
             }
         for(j=1;j<=i;j++)
         {
-           
             if(j==1||j==i)
             printf("1 ");
             else
